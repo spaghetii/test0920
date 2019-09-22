@@ -11,7 +11,9 @@
     <form method="post" action="/hello">
         @csrf                               {{-- 防止xss攻擊 --}}
         Your name:    高上鈞修改  練習fork <br> 
-        <input type="text" name="userName">
+        Your name:    林培誠修改  練習fork <br>
+        Your name:    呂雅卉修改  練習fork <br>
+        Your name:    黃冠維修改  練習fork <br>
         <input type="submit" value="OK">
     </form>
 </body>
