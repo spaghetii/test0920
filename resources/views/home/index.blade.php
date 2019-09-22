@@ -10,7 +10,7 @@
     <h1>Hello</h1>
     <form method="post" action="/hello">
         @csrf                               {{-- 防止xss攻擊 --}}
-        Your name: 
+        Your name:    高上鈞修改  練習fork <br> 
         <input type="text" name="userName">
         <input type="submit" value="OK">
     </form>
